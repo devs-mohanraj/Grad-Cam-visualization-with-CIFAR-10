@@ -1,5 +1,14 @@
 # GRAD-CAM Visualization of FGSM on CIFAR-10 Trained ResNet-18 Model
 
+## Contents
+- [Project Overview](#project-overview)
+- [Key Concepts](#key-concepts)
+- [Project Workflow](#project-workflow)
+- [Model Visualization](#model-visualization)
+- [Results](#results)
+- [Installation](#installation)
+- [References](#references)
+
 ##  Project Overview
 This project visualizes the effects of **Fast Gradient Sign Method (FGSM) adversarial attacks** on a **ResNet-18 model trained on CIFAR-10** using **Grad-CAM**. The goal is to understand how adversarial attacks shift the model’s attention and affect predictions.
 
@@ -50,3 +59,12 @@ source env/bin/activate  # On Windows, use `env\Scripts\activate`
 
 # Install required dependencies
 pip install torch torchvision numpy matplotlib adversarial-robustness-toolbox
+```
+
+## References
+
+- Grad-CAM: Visual Explanations from Deep Networks via Gradient-based Localization
+[https://arxiv.org/pdf/1610.02391]
+
+- Explaining and Harnessing Adversarial Examples
+[https://arxiv.org/pdf/1412.6572]
