@@ -43,11 +43,11 @@ This project visualizes the effects of **Fast Gradient Sign Method (FGSM) advers
 ## Results
 **Clean image**
 
-![alt text](<__pycache__\readme_images\clean_image.jpg>)
+![alt text](<readme_images/clean_image.jpg>)
 
 **Adversarial image**
 
-![alt text](<__pycache__\readme_images\adversarial_image.jpg>)
+![alt text](<readme_images/adversarial_image.jpg>)
 
 ## Installation
 Run the following commands to set up the environment:
